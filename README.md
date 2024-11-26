@@ -47,6 +47,8 @@ This project is inspired by my journey to master web development. Special thanks
 Let’s connect and grow together! Feel free to reach out:
 
 GitHub: Vidyacodess
+Linkedin:
+https://www.linkedin.com/in/vidya-yadav-7141832b3
 LinkedIn: Vidya Yadav
 
 
