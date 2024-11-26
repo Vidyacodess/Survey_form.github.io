@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <p>Please fill out this survey to help us improve!</p>
+        <form action="http://example.com/submit"method="POST">
+        
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required>
+             <br>
+            <label for="age">Age</label>:</label>
+            <input type="text" id="age" name="age" min="1" placeholder="Enter your age" required>
+             <br>
+            <label>Gender:</label>
+            <div calss="radio-group">
+                <br>
+                <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" required> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other" required> Other
+                </label>
+            </div>
+
+            <br><label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="share your feedback........." rows="5" required></textarea><br>
+            <br>
+            <label for="rating">how would you rate our services?</label>
+            <select id="rating" name="rating" required>
+                <option value="" disabled selected>Select your rating</option>
+                <option value="exellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <button type="submit">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
